@@ -327,16 +327,20 @@ body {
 
 .why{
     width: auto;
+    min-height: 700px;
     height: auto;
+    margin-top: 60px;
+
 }
 .content{ 
     display: flex;
     margin-left:130px;
+    padding-top: 160px;
     
     
 }
 .imp>h1{
-    font-size: xx-large;
+    font-size: 50px;
     font-weight: bold;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding-bottom: 30px;
@@ -362,18 +366,25 @@ body {
 display: flex;
 flex-wrap:wrap;
 flex-basis: 50%;
-margin-left: 200px;
-padding-top: 40px;
-font-size: x-large;
+padding-top: 15px;
+font-size: large;
+gap: 50px;
 }
 
 .part>i{
-    padding-top: 30px;
-    font-size: 35px;
+    padding-top: 25px;
+    font-size: 40px;
     margin-left: -40px;
     margin-top: -10px;
+    color: blue;
 
 }
+.part>h1{  font-size: 24px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
 
 
     
