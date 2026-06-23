@@ -1,8 +1,9 @@
 * {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-transform: capitalize;
 
 
 }
@@ -15,11 +16,12 @@ body {
 }
 
 .nav-container {
-    background-color: rgb(2, 2, 2);
+    background-image: url(nav\ background.png);
     width: 100%;
     min-height: 550px;
     height: auto;
     color: white;
+    
 }
 
 .nav-top {
@@ -30,14 +32,17 @@ body {
     padding-top: 20px;
     padding-right: 40px;
     padding-bottom: 10px;
-    background-color: rgb(39, 39, 82);
+    background-color:rgb(12, 12, 12);
+
 
 }
 
 .nexora>h1 {
     font-size: 40px;
     align-items: start;
-    color: white;
+    color:#2563EB;
+    font-weight: bold;
+    
 
 }
 
@@ -68,7 +73,9 @@ body {
 
 .nav-center {
     color: white;
-    background-color: black;
+    background-image: url(nav\ background.png);
+background-size: cover;
+background-position: center;
 }
 
 .nav-center>h1>li {
@@ -96,9 +103,10 @@ body {
 
 .nav-center>p {
     color: antiquewhite;
-    font-size: medium;
+    font-size: 13px;
     padding-left: 30px;
     padding-top: 15px;
+    padding-bottom: 5px;
 
 }
 
@@ -321,7 +329,7 @@ body {
     font-size: 15px;
     gap: 12px;
     margin-left: 45%;
-    margin-top: 40px;
+    margin-top: 60px;
 
 }
 
@@ -330,6 +338,7 @@ body {
     min-height: 700px;
     height: auto;
     margin-top: 60px;
+    margin-top: -40px;
 
 }
 .content{ 
@@ -384,6 +393,201 @@ gap: 50px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     
 }
+
+.client{
+    width: auto;
+    min-height:700px;
+    height: auto;
+}
+.client>h1{   text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+
+.clients{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 100px;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    
+}
+
+
+.clients i{
+      font-size: 20px;
+    display: inline-block;
+    color: rgb(12, 12, 12);
+    padding-top: 25px;
+
+}
+
+
+.says{
+      border-color: whitesmoke;
+    border-width: 2px;
+    
+}
+
+.newh{
+    width: auto;
+    height: 100px;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+.blog{
+    
+    display: flex;
+    justify-content:space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+.blog>h1{ text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 10px;
+    
+
+}
+.news{
+    border-width: 1px;
+    background-color: rgb(226, 220, 220);
+    border-radius: 5px;
+    padding-top: 100px;
+    gap: 20px;
+    
+}
+.news>img{
+    min-width: 300px;
+    width: 250px;
+    height: 220px;
+    border-radius: 10px;
+    object-fit:contain;
+    overflow:hidden;
+    margin-top: 10px;
+    
+}
+
+.news>h1{
+    font-weight: bold;
+      font-size: 25px;
+    font-weight: bold;
+    margin-top: -20px;
+}
+.news>p{
+      font-size: 20px;
+      margin-bottom: 10px;
+    
+      
+}
+.read{
+    color: rgb(6, 83, 155);
+    font-size: x-large;
+}
+
+.footer-container{
+    width:100%;
+    min-height: 400px;
+    display: flex;
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+    margin-top: 150px;
+}
+
+.footer-nav{
+    gap: 30px;
+}
+
+.foot{
+    width: 200px;
+    margin-left: 100px;
+}
+
+.foot>h1{
+    font-weight: bold;
+    font-size: 60px;
+    color:#2563EB;
+    font-family: sans-serif;
+    
+}
+
+.foot>p{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding-top: 15px;
+}
+
+.social{
+    font-size: xx-large;
+    padding-top: 20px;
+
+}
+
+
+.footer-links{
+    width: 10%;
+    margin-left: 80px;
+    list-style: none;
+    padding-top: 20px;
+}
+
+.footer-links>h1{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    color:#2563EB;
+    padding-top: 10px;
+}
+
+.foot-links{
+    line-height: 30px;
+    padding-left: 10px;
+    color:whitesmoke;
+    font-size: 18px;
+    padding-top: 15px;
+    
+    
+    
+}
+
+
+
+
+.foot-end{
+    margin-left: 60px;
+    padding-top: 30px;
+}
+
+.foot-end>h1{
+    font-size: x-large;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.email{
+    color: black;
+    padding-top: 40px;
+    border-radius: 25px;
+}
+
+    
+
+
+
+
 
 
 
