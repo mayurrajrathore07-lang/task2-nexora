@@ -1,10 +1,20 @@
 const getInTouchButton = document.querySelector('.get');
-const learnMoreButtons = document.querySelectorAll('.button');
+const learnMoreButtons = document.querySelectorAll('.button button, .learn, .read, .us');
 const contactSection = document.querySelector('#contact');
 const form = document.querySelector('.input');
 const darkModeButton = document.querySelector('.theme-toggle');
+const menuToggle = document.querySelector('.menu-toggle');
+const navLinks = document.querySelector('.nav-links');
 
-if (letstalkbutton && contactSection) {
+if (menuToggle && navLinks) {
+	menuToggle.addEventListener('click', () => {
+		navLinks.classList.toggle('active');
+		const isExpanded = menuToggle.getAttribute('aria-expanded') === 'true';
+		menuToggle.setAttribute('aria-expanded', String(!isExpanded));
+	});
+}
+
+if (getInTouchButton && contactSection) {
 	getInTouchButton.addEventListener('click', () => {
 		contactSection.scrollIntoView({ behavior: 'smooth' });
 	});
@@ -12,7 +22,7 @@ if (letstalkbutton && contactSection) {
 
 learnMoreButtons.forEach((button) => {
 	button.addEventListener('click', () => {
-		alegtrt('currently not available.');
+		alert('Currently not available.');
 	});
 });
 
