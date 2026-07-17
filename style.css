@@ -52,11 +52,15 @@ body {
     display: flex;
     list-style: none;
     color: rgb(252, 251, 250);
+    justify-content: center;
+    justify-items: center;
 }
 .links {
     display: flex;
     gap: 40px;
     font-size: larger;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -650,6 +654,21 @@ a {
 
 .let-wrap {
     margin-left: auto;
+}
+
+@media (min-width: 769px) {
+    .nexora {
+        flex: 1;
+    }
+    .nav-links {
+        flex: 0 0 auto;
+    }
+    .let-wrap {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 1024px) {
