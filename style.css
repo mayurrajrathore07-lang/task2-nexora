@@ -1,5 +1,5 @@
 * {
-    font-family:sans-serif;
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -21,7 +21,7 @@ body {
     min-height: 550px;
     height: auto;
     color: white;
-    
+
 }
 
 .nav-top {
@@ -32,8 +32,8 @@ body {
     padding-top: 20px;
     padding-right: 40px;
     padding-bottom: 10px;
-  background: linear-gradient(77deg, #667eea 30%, #764ba2 100%);
-  
+    background: linear-gradient(77deg, #667eea 30%, #764ba2 100%);
+
 
 
 }
@@ -41,20 +41,21 @@ body {
 .nexora>h1 {
     font-size: 40px;
     align-items: start;
-    color:#2563EB;
+    color: #2563EB;
     font-weight: bold;
-    
+
 
 }
 
 
-.nav-links { 
+.nav-links {
     display: flex;
     list-style: none;
     color: rgb(252, 251, 250);
     justify-content: center;
     justify-items: center;
 }
+
 .links {
     display: flex;
     gap: 40px;
@@ -65,7 +66,7 @@ body {
 }
 
 .let {
-     font-weight: bold;
+    font-weight: bold;
     border-radius: 12px;
     background: linear-gradient(90deg, #5b5ff7, #6c4dff);
     color: white;
@@ -79,8 +80,8 @@ body {
 .nav-center {
     color: white;
     background-image: url(nav\ background.png);
-background-size: cover;
-background-position: center;
+    background-size: cover;
+    background-position: center;
 }
 
 .nav-center>h1>li {
@@ -138,7 +139,7 @@ background-position: center;
 .get {
     margin-top: 10px;
     margin-left: 30px;
-     font-weight: bold;
+    font-weight: bold;
     margin-bottom: 15px;
     border-radius: 12px;
     background: linear-gradient(90deg, #5b5ff7, #6c4dff);
@@ -147,13 +148,13 @@ background-position: center;
     padding: 12px 25px;
     font-size: 15px;
     gap: 12px;
-    
+
 }
 
-.view { 
-     margin-top: 10px;
+.view {
+    margin-top: 10px;
     margin-left: 30px;
-     font-weight: bold;
+    font-weight: bold;
     margin-bottom: 15px;
     border-radius: 12px;
     background: linear-gradient(90deg, #5b5ff7, #6c4dff);
@@ -162,7 +163,7 @@ background-position: center;
     padding: 12px 25px;
     font-size: 15px;
     gap: 12px;
-    
+
 }
 
 .icon {
@@ -259,18 +260,18 @@ background-position: center;
     justify-content: center;
     font-size: 70px;
     font-weight: bold;
-    font-family:sans-serif;
+    font-family: sans-serif;
     margin-bottom: 15px;
 
 }
 
-.work{
+.work {
     list-style: none;
-    color: rgb(20, 20, 20); 
-    padding-top: 20px;  
+    color: rgb(20, 20, 20);
+    padding-top: 20px;
 }
 
-.works{
+.works {
     display: flex;
     gap: 40px;
     font-size: 30px;
@@ -278,22 +279,24 @@ background-position: center;
     padding-top: 20px;
 
 }
-.works :active{
+
+.works :active {
     color: blue;
 
 }
 
-.project{
+.project {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 50px;
 
-    
+
 }
-.image{
-       border-color: whitesmoke;
+
+.image {
+    border-color: whitesmoke;
     border-width: 1px;
     background-color: rgb(226, 220, 220);
     border-radius: 5px;
@@ -301,28 +304,29 @@ background-position: center;
 }
 
 
-.image>img{
+.image>img {
     width: 250px;
     height: 220px;
     border-radius: 10px;
     object-fit: contain;
     margin-top: 10px;
-    
+
 }
 
-.image>h1{
+.image>h1 {
     font-weight: bold;
-      font-size: 30px;
+    font-size: 30px;
     font-weight: bold;
     margin-top: -20px;
 }
-.image>p{
-      font-size: 20px;
+
+.image>p {
+    font-size: 20px;
 
 }
 
 
-.project-btn{
+.project-btn {
     text-align: center;
     font-weight: bold;
     margin-bottom: 30px;
@@ -338,7 +342,7 @@ background-position: center;
 
 }
 
-.why{
+.why {
     width: auto;
     min-height: 700px;
     height: auto;
@@ -346,26 +350,28 @@ background-position: center;
     margin-top: -40px;
 
 }
-.content{ 
+
+.content {
     display: flex;
-    margin-left:130px;
+    margin-left: 130px;
     padding-top: 160px;
-    
-    
+
+
 }
-.imp>h1{
+
+.imp>h1 {
     font-size: 50px;
     font-weight: bold;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-bottom: 30px;
 }
 
-.imp>p{
-    font-size:20px;
+.imp>p {
+    font-size: 20px;
     padding-bottom: 10px;
 }
 
-.us{
+.us {
     font-weight: bold;
     border-radius: 12px;
     background: linear-gradient(90deg, #5b5ff7, #6c4dff);
@@ -374,18 +380,19 @@ background-position: center;
     padding: 15px 35px;
     font-size: 15px;
     margin-top: 30px;
-    
-}
-.source{
-display: flex;
-flex-wrap:wrap;
-flex-basis: 50%;
-padding-top: 15px;
-font-size: large;
-gap: 50px;
+
 }
 
-.source{
+.source {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    padding-top: 15px;
+    font-size: large;
+    gap: 50px;
+}
+
+.source {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
@@ -393,37 +400,39 @@ gap: 50px;
     margin-right: 90px;
 }
 
-.part{
+.part {
     display: flex;
     align-items: flex-start;
     gap: 20px;
 }
 
-.part i{
+.part i {
     font-size: 55px;
     color: blue;
     width: 50px;
 }
 
-.part h1{
+.part h1 {
     font-size: 24px;
     margin: 0 0 10px;
     font-weight: 700;
 }
 
-.part p{
+.part p {
     margin: 0;
     line-height: 1.6;
     color: #555;
 }
 
 
-.client{
+.client {
     width: auto;
-    min-height:700px;
+    min-height: 700px;
     height: auto;
 }
-.client>h1{   text-align: center;
+
+.client>h1 {
+    text-align: center;
     padding-top: 20px;
     font-size: 50px;
     font-weight: bold;
@@ -431,7 +440,7 @@ gap: 50px;
 
 }
 
-.clients{
+.clients {
     color: black;
     display: flex;
     justify-content: space-between;
@@ -440,12 +449,12 @@ gap: 50px;
     align-items: center;
     margin-top: 50px;
     margin-bottom: 40px;
-    
+
 }
 
 
-.clients i{
-      font-size: 20px;
+.clients i {
+    font-size: 20px;
     display: inline-block;
     color: rgb(12, 12, 12);
     padding-top: 25px;
@@ -453,20 +462,20 @@ gap: 50px;
 }
 
 
-.says{
-      border-color: whitesmoke;
+.says {
+    border-color: whitesmoke;
     border-width: 2px;
-    
+
 }
 
-.newh{
+.newh {
     width: auto;
     height: 100px;
     text-align: center;
     padding-top: 60px;
     font-size: 50px;
     font-weight: bold;
-    
+
 }
 
 
@@ -478,32 +487,34 @@ gap: 50px;
     text-align: center;
     justify-content: center;
 }
-.says i{
+
+.says i {
     display: flex;
     gap: 10px;
-    
+
 }
 
 
 .news {
     width: 350px;
-    background-color: rgb(226,220,220);
+    background-color: rgb(226, 220, 220);
     border-radius: 5px;
     padding: 20px;
     display: flex;
     flex-direction: column;
 }
 
-.blog>h1{ text-align: center;
+.blog>h1 {
+    text-align: center;
     padding-top: 30px;
     font-size: 20px;
     font-weight: bold;
     font-family: sans-serif;
     margin-top: 10px;
-    
+
 
 }
-    
+
 
 .news img {
     width: 100%;
@@ -512,12 +523,12 @@ gap: 50px;
     border-radius: 10px;
 }
 
-.news>h1{
+.news>h1 {
     font-weight: bold;
-      font-size: 25px;
+    font-size: 25px;
     margin-top: 15px;
 }
-   
+
 
 .news p {
     font-size: 20px;
@@ -527,7 +538,7 @@ gap: 50px;
 
 
 
-.read{
+.read {
     color: rgb(6, 83, 155);
     font-size: x-large;
 }
@@ -574,7 +585,7 @@ gap: 50px;
     color: #ffffff;
 }
 
-.foot > p {
+.foot>p {
     font-size: 14px;
     line-height: 1.6;
     color: #94a3b8;
@@ -615,7 +626,7 @@ gap: 50px;
     list-style: none;
 }
 
-.footer-links > h1 {
+.footer-links>h1 {
     font-size: 16px;
     font-weight: 600;
     color: #ffffff;
@@ -651,7 +662,7 @@ gap: 50px;
     max-width: 320px;
 }
 
-.foot-end > h1 {
+.foot-end>h1 {
     font-size: 16px;
     font-weight: 600;
     color: #ffffff;
@@ -660,7 +671,7 @@ gap: 50px;
     letter-spacing: 0.05em;
 }
 
-.foot-end > p {
+.foot-end>p {
     font-size: 14px;
     line-height: 1.5;
     color: #94a3b8;
@@ -766,14 +777,21 @@ a {
     .nexora {
         flex: 1;
     }
+
     .nav-links {
         flex: 0 0 auto;
     }
+
     .let-wrap {
         flex: 1;
         display: flex;
         justify-content: flex-end;
         margin-left: 0;
+    }
+
+    .icon {
+        display: flex;
+        flex-direction: row;
     }
 }
 
@@ -1053,8 +1071,3 @@ a {
         width: 100%;
     }
 }
-
-
-
-    
-
